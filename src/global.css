@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+    padding: 4%;
+    overflow: hidden;
+}
+
+.main-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.boxes-container {
+    display: flex;
+    gap: 4vh;
+}
+
+.home-view-box {
+    height: 75vh;
+    width: 35vw;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+h2 {
+    font-size: 1.35rem;
+}
+
+.convo-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.message {
+    max-width: 60%;
+    margin: 5px 0;
+    padding: 1px 12px;
+    border-radius: 10px;
+}
+
+.reply-message {
+    align-self: flex-start;
+    text-align: left;
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #0084ff;
+    color: white;
+}
+
+.input-container {
+    margin-top: auto;
+}
+
+.settings-box {
+    border-color: black;
+}
+
+#dev-buttons {
+    display: flex;
+    gap: 5vw;
+}
